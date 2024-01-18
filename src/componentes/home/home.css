@@ -1,0 +1,17 @@
+/* styles.css */
+@keyframes colorChange {
+    0% { color: aqua; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: aqua; }
+  }
+  
+  .logo {
+    animation: colorChange 5s infinite; 
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
